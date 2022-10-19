@@ -42,10 +42,10 @@
 
 .hero .hero_content p {
   margin: 3rem 0 0 0;
-  font-family: "Open Sans";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   /* or 141% */
 
@@ -94,22 +94,119 @@
   background-image: url("../image/Rectangle_backgroud.png");
   background-repeat: no-repeat;
   background-position: top;
+  /* background-size: cover; */
+  box-sizing: border-box;
   margin-top: 108px;
+  padding: 12rem 0 0 0;
 
   min-height: 855.37px;
 }
 
-.productive_backgroud .productive_image {
+/* .productive_backgroud .productive_image {
   margin: 14rem 3rem 0 0;
-}
+} */
 
-.productive_backgroud .productive_content h1 {
+.productive_backgroud .productive_content h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
   /* identical to box height */
+  color: #07043b;
+}
+
+.productive_backgroud .productive_content p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #07043b;
+}
+.text2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.productive_backgroud .productive_content .productive_btns {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.productive_backgroud .productive_content a {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #3da08f;
+  text-decoration: none;
+}
+
+.productive_backgroud .productive_content .productive_btns i {
+  color: #3da08f;
+  font-size: 10px;
+}
+
+.letter {
+  width: 356px;
+  height: 215px;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+  border-radius: 5px;
+  float: left;
+}
+
+.productive_content .letter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 2rem 0 2rem;
+  box-sizing: border-box;
+}
+
+.productive_content .letter p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  /* or 177% */
+  letter-spacing: 0.5px;
+  color: #07043b;
+}
+
+.user {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.letter .user .user_content h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.55px;
+  color: #07043b;
+}
+
+.letter .user .user_content p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 15px;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.4px;
 
   color: #07043b;
 }
